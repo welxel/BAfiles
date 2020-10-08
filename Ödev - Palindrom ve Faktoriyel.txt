@@ -1,0 +1,15 @@
+Palindrom:
+Eğer bir kelimenin düz okunuşu ile ters okunuşu birbirinin aynı ise palindromdur, değilse palindrom değildir.
+Örneğin "ana" kelimesi bir palindrom iken "baba" kelimesi bir palindrom değildir.
+Basit bir palindrom kontrol konsol uygulaması yazınız:
+1) Kullanıcı 'q' harfine basana kadar tekrar tekrar giriş yapabilir, 'q' harfine bastığında uygulamadan çıkılır.
+2) Kullanıcının yaptığı giriş en az iki karakter olmalıdır.
+3) Kullanıcı sadece harf girecek diye bir zorunluluk yoktur.
+4) Eğer kullanıcının girdiği kelime palindrom ise ekrana "Girdiğiniz kelime palindromdur.", değilse "Girdiğiniz kelime palindrom değildir." yazılır.
+
+Faktoriyel:
+Bir sayının sürekli 1 azaltılarak arka arkaya yapılan çarpım faktoriyeldir.
+Örneğin 5 faktoriyel 5! şeklinde gösterilir ve 5! = 5 * 4 * 3 * 2 * 1 olarak hesaplanır.
+Basit bir faktoriyel hesaplama konsol uygulaması yazınız:
+1) Kullanıcıdan tek seferlik pozitif bir tam sayı alınır.
+2) Kullanıcının girdiği sayının faktoriyeli hesaplanarak ekrana yazdırılır.
