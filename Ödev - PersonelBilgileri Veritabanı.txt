@@ -1,0 +1,37 @@
+Aşağıdaki PersonelBilgileri veritabanını uygun veri tiplerini kullanarak oluşturunuz, tablolar arasındaki ilişkileri kurunuz, 
+tüm tablolara rasgele test verileri giriniz (insert sorgusu ile) ve aşağıdaki sorguları yazınız.
+Sorgular: 
+1) Personel tablosunda en son giriş yapılan kaydı tüm sütunlara göre getiren sorgu.
+2) Personel tablosundan en genç olan personelin adını, soyadını ve doğum tarihini getiren sorgu.
+3) Personel tablosundan personelin adını ve soyadını ad ve soyada göre tersten sıralayarak getiren sorgu.
+4) Şehri Ankara olan personellerin adı, soyadı, kimlik numarası ve şehir adını getiren sorgu.
+5) 2020 yılı için en yüksek maaşa sahip personelin adı, soyadı, maaş yılı ve ücretini getiren sorgu.
+6) Tüm personellerin yıldan bağımsız sadece maaş toplamını getiren sorgu.
+7) Sorgulanan adres, PersonelIletisim tablosunda daha önce girilmiş olan bir veya birden çok adresin içinde bulunan personelin adı, soyadı, adresi ve şehrini getiren sorgu. (İpucu: like kullanımı)
+8) Personel tablosundan doğum tarihi 2000 senesi ve öncesi olan personellerin tüm sütunlarını getiren sorgu.
+9) Personel adı, soyadı, cep telefonu, e-postası, adresi ve şehrini getiren ve sırasıyla şehre, ada ve soyada göre sıralayan sorgu.
+
+PersonelBilgileri veritabanı:
+
+Personel tablosu: Rasgele 5 kayıt girilmesi yeterlidir.
+Id
+Ad
+Soyad
+KimlikNo
+DogumTarih
+
+PersonelIletisim tablosu: Her bir personelin mutlaka iletişim kaydı olacak diye bir kural yoktur, maksimum 5 kayıt girilmesi yeterlidir. Her bir personelin 1 iletişim kaydı olmalıdır.
+Id
+CepTelefon
+EvTelefon
+Eposta
+Adres
+
+Sehir tablosu: Ankara, İstanbul ve İzmir girilmesi yeterlidir. Her bir şehir için en az bir personel kaydı olmalıdır.
+Id
+Ad
+
+Maas tablosu: Her bir personelin yıllara göre maaş kayıtları olması zorunludur. 2019 ve 2020 yılları için kayıtlar girmek yeterlidir.
+Id
+Ucret
+Yil
