@@ -1,0 +1,16 @@
+1) Hesap makinesi Windows Forms versiyonu:
+Minimum iki sayı için çalışmalı. İstenirse birden çok işlemi arka arkaya çalıştıracak şekilde yapılabilir.
+İstenirse sayılar ve işlemler buton olarak, istenirse de tek bir TextBox üzerinden yapılabilir.
+Toplama, çıkarma, çarpma, bölme, mod, üs ve kare kök işlemlerini yapmalıdır.
+Örnek olarak Windows'daki Hesap Makinesi uygulamasına bakılabilir.
+
+2) Herhangi girilen bir kelimenin (TextBox) 2 seçeneğe göre (ComboBox) sesli ve sessiz harflerinin Windows Forms uygulaması ile bulunması.
+
+3) Basit bir Windows Forms adam asmaca oyunu (zorunlu değil, sınıfta beraber yapacağız).
+Belirli bir kelime dizisi tanımlanır (en fazla 10 kelime yeterli).
+Uygulama çalıştığında bu kelime dizisinden rasgele bir kelime seçilir (Random ile).
+Seçilen kelimenin karakterlerini gizlemek için * veya - kullanılır.
+Kullanıcı harf bildikçe * veya - yerine harf yazdırılır.
+Kullanıcı kelimenin tamamını bildiğinde oyunu kazanır veya isterse yeni bir kelime isteyebilir.
+
+Kolay gelsin. :)
