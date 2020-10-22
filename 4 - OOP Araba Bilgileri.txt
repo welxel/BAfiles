@@ -1,0 +1,17 @@
+Kullanıcı tarafından Windows Forms üzerinden girilen aşağıdaki araba verilerinin 
+önce Kaydet butonu ile yeni bir araba objesi oluşturularak kaydedilmesi daha sonra Göster butonu ile ekranda gösterilmesi.
+
+Araba sınıfı özellikleri:
+Id
+Marka
+Model
+KapiSayisi (2 kapılı, 4 kapılı, 5 kapılı)
+BeygirGucu (Beygir cinsinden)
+ArabaTuru (Binek, Ticari)
+MaksimumHiz (Kilometre/saat cinsinden)
+Cekis (Önden çekiş, Arkadan itiş, Dört çeker)
+SifirdanYuzeHizlanma (Saniye cinsinden)
+Agirlik (Kilogram cinsinden)
+MotorHacmi (Santimetreküp cinsinden)
+
+Kolay gelsin. :)
