@@ -1,0 +1,40 @@
+Kare, dikdörtgen, eşkenar üçgen, dik üçgen ve daire geometrik şekillerinin alan ve çevre hesaplarını yapan basit bir Windows Forms uygulaması geliştirin.
+
+Kare class'ı:
+UzunKenar
+AlanHesapla()
+CevreHesapla()
+
+Dikdortgen class'ı:
+UzunKenar
+KisaKenar - Kare class'ı ile ortak olmadığından interface'e tanımlanmamalı
+AlanHesapla()
+CevreHesapla()
+
+IDortgen interface'i:
+UzunKenar
+AlanHesapla()
+CevreHesapla()
+
+EskenarUcgen class'ı:
+TabanKenar
+AlanHesapla()
+CevreHesapla()
+
+DikUcgen class'ı:
+TabanKenar
+Yukseklik - EskenarUcgen class'ı ile ortak olmadığından interface'e tanımlanmamalı
+AlanHesapla()
+CevreHesapla()
+
+IUcgen interface'i:
+TabanKenar
+AlanHesapla()
+CevreHesapla()
+
+Daire class'ı: Uygulamada başka yuvarlak bir şekil olmayacağından interface'e gerek yok
+YariCap
+AlanHesapla()
+CevreHesapla()
+
+Kolay gelsin. :)
