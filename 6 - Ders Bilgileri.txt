@@ -1,0 +1,24 @@
+Ders bilgilerini listeleyen ve listeye yeni bir ders eklenebilen Windows Forms uygulaması.
+Bu bilgiler istenirse hafızadan yüklenip kullanılabilir, istenirse de dosyadan.
+Ders class'ı:
+Id
+Adi (Matematik, Tarih, İngilizce, vb.)
+Kategorisi (Sayısal, Sosyal enum)
+Icerigi
+Kredisi (1 ile 5 arasında bir değer)
+
+DersService class'ı:
+List() methodu
+Add() methodu
+
+MemoryOperations class'ı:
+GetDersler() methodu
+AddDers() methodu
+
+FileOperations class'ı:
+GetDersler() methodu
+AddDers() methodu
+
+IOperations interface'i:
+GetDersler(); method tanımı
+AddDers(); method tanımı
