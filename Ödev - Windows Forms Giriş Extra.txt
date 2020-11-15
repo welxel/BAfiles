@@ -1,0 +1,11 @@
+Windows Forms üzerinde RichTextBox içerisine girilen herhangi bir metindeki
+Türkçe karakterleri İngilizce karakterlere dönüştüren basit bir uygulama.
+
+Örnek:
+Türkçe hali:
+Çağıl bugün işe geldi.
+Sonrasında eve gitti.
+
+İngilizce hali:
+Cagil bugun ise geldi.
+Sonrasinda eve gitti.
