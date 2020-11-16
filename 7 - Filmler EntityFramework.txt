@@ -1,0 +1,34 @@
+Filmler veritabanı üzerinden basit bir film yönetilebilen (listeleme, ekleme, güncelleme, silme)
+Windows Forms uygulaması.
+1) Entity'leri oluşturun:
+Film Entity
+Id
+Adi
+YapimYili
+Gisesi
+YonetmenId
+
+Yonetmen Entity
+Id
+Adi
+Soyadi
+
+Tur Entity
+Id
+Adi
+
+FilmTur Entity
+Id
+FilmId
+TurId
+
+2) Bu entity'ler için DbSet'leri Context class'ında oluşturun.
+
+3) Package Manager Console üzerinden migration ve veritabanı oluşturma işlemlerini yapın.
+
+4) İlk etapta Film ve Yonetmen için formlar oluşturun, Tur için formlar olmasına gerek yok,
+tür verilerini veritabanından okuyabilirsiniz.
+Önce Film listeleme formu, daha sonrasında ekleme ve liste üzerinden kayıt seçerek 
+güncelleme ve silme işlemleri.
+Önce Yonetmen listeleme formu, sonrasında ekleme ve liste üzerinden kayıt seçerek 
+güncelleme ve silme işlemleri.
