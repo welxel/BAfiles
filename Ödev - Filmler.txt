@@ -1,0 +1,29 @@
+Soru: Aşağıdaki tablo ve sütunlara göre veritabanında gerekli tablo ve sütunları 
+oluşturup tablolar arası ilişkileri sağlayınız. 
+Oluşturulan tablolara veri girişi zorunludur.																												
+																												
+Tablolar		
+Film																			
+Id																		
+Adi																				
+YapimYili																
+Gisesi	
+
+Yonetmen												
+Id			
+Adi			
+Soyadi		
+
+Tur
+Id	
+Adi
+
+Oyuncu
+Id		
+Adi		
+Soyadi
+DogumTarihi
+
+Karakter	
+Id			
+AdiSoyadi	
